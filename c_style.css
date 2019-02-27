@@ -69,6 +69,7 @@ a {
 	width: 100%;
 	max-width: 801px;
 	min-width:350px;
+	background-image: url(https://fftierlist.github.io/icons/tablebackground.png);
 	display: block;
 	position: relative;
 	margin: 0 auto;
