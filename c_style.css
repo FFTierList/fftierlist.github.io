@@ -68,6 +68,7 @@ a {
 .wrapper {
 	width: 100%;
 	max-width: 801px;
+	min-width:350px;
 	display: block;
 	position: relative;
 	margin: 0 auto;
