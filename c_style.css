@@ -255,9 +255,9 @@ button:hover, input[type=submit]:hover {
 	justify-content: center;
 	width: 100px;
 	height: 100px;
-	transform: scale(0.45);
+	transform: scale(0.4);
 	cursor: pointer;
-	margin: -20px -20px !important;
+	margin: -24px -24px !important;
 	position: relative;
 	border: 1px solid #363a41;
 }
