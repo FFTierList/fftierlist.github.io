@@ -263,14 +263,14 @@ flair.loadChoices = function () {
 			
 			var node = document.createElement("label");
 			node.setAttribute('class', 'flair flair-choice ' +  data.hero_name);
-			node.setAttribute('style', 'width: 200px; height: 40px; position: fixed; top:112px; left:-31px; borders: none;');
+			node.setAttribute('style', 'transform: scale(0.6); width: 166px!important; height: 25px!important; position: fixed; top:120px; left:-10px; borders: none;');
 			var textnode = document.createTextNode(data.hero_name.replace(/ *\[[^]*\ */g, ""));
 			node.appendChild(textnode);
 			flair_choice.appendChild(node);
 			
 			var node1 = document.createElement("label");
 			node1.setAttribute('class', 'flair flair-choice ' +  data.hero_name);
-			node1.setAttribute('style', 'width: 200px; height: 40px; position: fixed; top:132px; left:-31px; borders: none;');
+			node1.setAttribute('style', 'transform: scale(0.5); width: 200px!important; height: 30px!important; position: fixed; top:133px; left:-27px; borders: none;');
 			var textnode1 = document.createTextNode(data.hero_name.replace(/.*?(\[[^]*\]).*?/g, "$1").replace(/\[/g, '').replace(/]/g, '').replace(/ *\#[^]*\ */g, ""));
 			node1.appendChild(textnode1);
 			flair_choice.appendChild(node1);
